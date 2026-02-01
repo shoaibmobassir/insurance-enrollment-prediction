@@ -141,7 +141,7 @@ This project uses **MLflow** to track metrics, hyperparameters, and models.
    ```
    Open `http://127.0.0.1:5000` to visualize run comparisons.
 
-## � Tech Stack
+##  Tech Stack
 
 - **Core**: Python 3.8+, Pandas, NumPy
 - **ML**: Scikit-Learn, XGBoost, LightGBM
