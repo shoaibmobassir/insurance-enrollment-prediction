@@ -492,7 +492,10 @@ class ModelTrainer:
                     mlflow.log_params(filtered_params)
                 
                 # Log metrics
-                mlflow.log_metrics(metrics)
+                # Filter out non-numeric metrics (like feature_importance dict)
+                numeric_metrics = {k: v for k, v in metrics.items() 
+                                  if isinstance(v, (int, float, np.number))}
+                mlflow.log_metrics(numeric_metrics)
                 
                 # Tag
                 mlflow.set_tag("model_type", model_name)
@@ -502,7 +505,7 @@ class ModelTrainer:
                 
             print(f"  ✓ Logged {model_name} execution to MLflow")
         except Exception as e:
-            print(f"  ! Note: MLflow logging skipped (optional)")
+            print(f"  ! Note: MLflow logging skipped (optional). Error: {e}")
 
 if __name__ == "__main__":
     # Example usage
