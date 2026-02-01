@@ -166,5 +166,3 @@ The project successfully identified multiple perfect models. **Gradient Boosting
 1.  **Pilot Deployment**: Deploy the Gradient Boosting model via the API.
 2.  **Stress Testing**: Validate model on "noisy" manual entry data to ensure robustness beyond synthetic cleanliness.
 3.  **Explainability**: Use SHAP values to explain individual rejection/approval decisions to HR users.
-
----
