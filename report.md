@@ -1,4 +1,4 @@
-# Insurance Enrollment Prediction - Analysis Report 📊
+# Insurance Enrollment Prediction - Analysis Report 
 
 ## Executive Summary
 
