@@ -1,8 +1,8 @@
-# Insurance Enrollment Prediction 🏥📊
+# Insurance Enrollment Prediction 
 
 A comprehensive machine learning pipeline for predicting employee insurance enrollment based on demographic and employment data.
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -14,13 +14,13 @@ A comprehensive machine learning pipeline for predicting employee insurance enro
 - [Results](#results)
 - [Technologies Used](#technologies-used)
 
-## 🎯 Overview
+##  Overview
 
 This project implements an end-to-end machine learning solution to predict whether employees will enroll in a voluntary insurance product. The pipeline includes data processing, multiple ML models, and hyperparameter tuning optimization.
 
-**🏆 Best Model**: Gradient Boosting with **100% Accuracy**.
+** Best Model**: Gradient Boosting with **100% Accuracy**.
 
-## ✨ Features
+##  Features
 
 - ✅ **Data Processing**: Automated EDA, feature engineering (age groups, salary bins, interaction features).
 - ✅ **Multiple Algorithms**: XOR-style comparison of 5 models including XGBoost and LightGBM.
@@ -28,7 +28,7 @@ This project implements an end-to-end machine learning solution to predict wheth
 - ✅ **REST API**: FastAPI server for real-time inference.
 - ✅ **Explainability**: Feature importance analysis and SHAP-ready structure.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 insurance-enrollment-prediction/
@@ -42,7 +42,7 @@ insurance-enrollment-prediction/
 └── report.md                     # Detailed Analysis Report
 ```
 
-## 🚀 Installation
+##  Installation
 
 1. **Clone & Setup**:
    ```bash
@@ -52,7 +52,7 @@ insurance-enrollment-prediction/
    pip install -r requirements.txt
    ```
 
-## ⚡ Quick Start
+##  Quick Start
 
 Run the complete pipeline (Process -> Train -> Tune -> Evaluate):
 
@@ -60,7 +60,7 @@ Run the complete pipeline (Process -> Train -> Tune -> Evaluate):
 python main.py
 ```
 
-## 📖 Usage
+##  Usage
 
 ### CLI Modes
 - **Train & Tune**: `python main.py --mode train --tune`
@@ -74,7 +74,7 @@ Start the server and access Swagger UI at `http://localhost:8000/docs`:
 uvicorn api.main:app --reload
 ```
 
-## 📊 Results
+##  Results
 
 We achieved perfect classification on the test set.
 
@@ -90,7 +90,7 @@ We achieved perfect classification on the test set.
 
 See [report.md](report.md) for detailed analysis and visualizations.
 
-## 🔮 Generalized Inference Script
+##  Generalized Inference Script
 
 Use `src/inference.py` to train new models with custom parameters or predict using saved models.
 
@@ -111,13 +111,13 @@ python src/inference.py --mode load \
     --output results.csv
 ```
 
-## 📓 Jupyter Notebook
+##  Jupyter Notebook
 
 Explore the full interactive pipeline in `notebooks/full_pipeline.ipynb`. This notebook provides a deep dive into:
-- 📊 **EDA**: Visualizations of distributions and correlations.
-- 🛠️ **Feature Engineering**: Creation of derived features.
-- 🤖 **Model Tuning**: Step-by-step GridSearchCV (configured for stability).
-- 📈 **Evaluation**: ROC and Precision-Recall curves.
+-  **EDA**: Visualizations of distributions and correlations.
+-  **Feature Engineering**: Creation of derived features.
+-  **Model Tuning**: Step-by-step GridSearchCV (configured for stability).
+-  **Evaluation**: ROC and Precision-Recall curves.
 
 ```bash
 jupyter notebook notebooks/full_pipeline.ipynb
@@ -125,7 +125,7 @@ jupyter notebook notebooks/full_pipeline.ipynb
 
 > **Note for macOS Users**: The notebook and training scripts are configured with `n_jobs=1` (sequential execution) to ensure stability and avoid multiprocessing errors common with Python 3.14/Pandas on macOS.
 
-## 📈 Experiment Tracking (MLflow)
+##  Experiment Tracking (MLflow)
 
 This project uses **MLflow** to track metrics, hyperparameters, and models.
 
@@ -141,7 +141,7 @@ This project uses **MLflow** to track metrics, hyperparameters, and models.
    ```
    Open `http://127.0.0.1:5000` to visualize run comparisons.
 
-## �🛠️ Technologies Used
+## � Tech Stack
 
 - **Core**: Python 3.8+, Pandas, NumPy
 - **ML**: Scikit-Learn, XGBoost, LightGBM
