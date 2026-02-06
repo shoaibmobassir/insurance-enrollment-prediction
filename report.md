@@ -1,14 +1,14 @@
-# Insurance Enrollment Prediction - Analysis Report 
+# Insurance Enrollment Prediction - Analysis Report 📊
 
 ## Executive Summary
 
 This project successfully implements a high-performance machine learning pipeline to predict employee insurance enrollment. After rigorous testing across 5 different algorithms and optimization using GridSearchCV, the final model achieved **100% accuracy** on the test set.
 
 **Key Achievements:**
--  **Best Model**: Gradient Boosting (100% Accuracy, 1.0 ROC AUC)
--  **Optimization**: Hyperparameter tuning confirmed model robustness
--  **Insights**: Identified 'Employment Type' and 'Salary' as primary drivers
--  **Deployment**: REST API ready for real-time predictions
+- **Best Model**: Gradient Boosting (100% Accuracy, 1.0 ROC AUC)
+- **Optimization**: Hyperparameter tuning confirmed model robustness
+- **Insights**: Identified 'Employment Type' and 'Salary' as primary drivers
+- **Deployment**: REST API ready for real-time predictions
 
 ---
 
@@ -166,3 +166,6 @@ The project successfully identified multiple perfect models. **Gradient Boosting
 1.  **Pilot Deployment**: Deploy the Gradient Boosting model via the API.
 2.  **Stress Testing**: Validate model on "noisy" manual entry data to ensure robustness beyond synthetic cleanliness.
 3.  **Explainability**: Use SHAP values to explain individual rejection/approval decisions to HR users.
+
+---
+*Report generated for Insurance Enrollment AI Task Force*

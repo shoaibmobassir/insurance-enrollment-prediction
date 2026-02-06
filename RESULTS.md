@@ -5,7 +5,7 @@
 
 ---
 
-## 📊 Model Performance Results
+##  Model Performance Results
 
 ### Model Comparison Table
 
@@ -52,7 +52,7 @@
 
 ---
 
-## 📈 Data Insights
+##  Data Insights
 
 ### Dataset Statistics
 
@@ -107,7 +107,7 @@
 
 ---
 
-## 🔍 Feature Importance Analysis
+##  Feature Importance Analysis
 
 ### Top 10 Most Important Features (Gradient Boosting)
 
@@ -128,7 +128,7 @@
 
 ---
 
-## 📁 Generated Artifacts
+##  Generated Artifacts
 
 ### Visualizations (10 files in `notebooks/`)
 
@@ -159,7 +159,7 @@
 
 ---
 
-## 🎯 Business Insights
+##  Business Insights
 
 ### Key Findings
 
@@ -217,7 +217,7 @@ With **100% test accuracy**, the model can reliably:
 
 ---
 
-## 🚀 Next Steps
+##  Next Steps
 
 ### Immediate Actions
 
@@ -251,7 +251,7 @@ With **100% test accuracy**, the model can reliably:
 
 ---
 
-## 📝 Conclusion
+##  Conclusion
 
 The ML pipeline has been **successfully executed** with exceptional results:
 
